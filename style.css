@@ -20,7 +20,18 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+p{
+  top: 12vmin;
+  position: absolute;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  max-width: 60vmin;
+  max-height: 70vmin;
+  font-family: 'Oswald', sans-serif;
+  font-size: 6vmin;
+  background-color: #d1ffb3;
+  color: #222;
+}
 .btn__2048:active {
   transform: scale(.9);
 }
